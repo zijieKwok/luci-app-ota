@@ -39,7 +39,7 @@ jobs:
         
          
         git clone --depth=1 https://github.com/jjm2473/openwrt-apps.git -b dev
-        mv ./luci-app-ota ./
+        mv ./luci-app-ota/luci-app-ota ./
         
 
         
