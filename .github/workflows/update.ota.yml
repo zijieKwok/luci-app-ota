@@ -38,9 +38,9 @@ jobs:
         rm -rf ./luci-app-ota
         
          
-        git clone --depth=1 https://github.com/jjm2473/openwrt-apps.git -b dev
-        mv ./luci-app-ota ./
-        
+        git clone --depth=1 https://github.com/jjm2473/openwrt-apps.git -b dev ./ota
+        mv ./ota/luci-app-ota ./
+        rm -rf ./ota
 
         
 
